@@ -1,7 +1,5 @@
 const inquirer = require('inquirer');
 
-const promptProject = portfolioData => {
-
 /* const fs = require('fs');
 
 const generatePage = require('./src/page-template.js')
@@ -39,7 +37,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'about',
-      message: 'Provide some information about yourself:'
+      message: 'Provide some information about yourself:',
       when: ({ confirmAbout }) => {
         if (confirmAbout) {
           return true;
